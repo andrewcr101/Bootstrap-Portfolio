@@ -1,0 +1,153 @@
+body {
+    background-image: url("../images/full-bloom.png");
+    /*max-width: 960px;*/
+    margin: auto;
+}
+
+.navbar-expand-sm {
+    background-color: white;
+}
+
+.nvabar {
+    background-color: white;
+}
+
+.navbar-brand {
+    background-color: teal;
+    color: white;
+    font-weight: bolder;
+}
+
+.row {
+        background-color: white;
+        float: left;
+        width: 100%;
+        max-width: 960px;
+      
+        /* Box-model */
+        padding: 30px;
+      
+        /* Positioning */
+        margin: 0 0 40px;
+        background: #fff;
+      
+        /* Visual */
+        border: 1px solid #ddd;
+      }
+
+}
+
+.mr-auto {
+    float: right;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+}
+
+h2 {
+    border-bottom: solid;
+    border-bottom-color: black;
+    max-width: 100%;
+}
+
+.btn {
+    background-color: #343a40;
+}
+
+.collapse {
+    float: right;
+}
+
+.container1 {
+    /* Positioning */
+    position: relative;
+    float: left;
+  
+    /* Box-model */
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .container1:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .container1 img {
+    /* Box-model */
+    width: 100%;
+  
+    /* Visual */
+    border: 0 none;
+  
+    /* Misc */
+    opacity: 0.8;
+  }
+  
+  .container1 h4 {
+    /* Positioning */
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  
+    /* Box-model */
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+  
+    /* Typography */
+  
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+
+    border-bottom: 0;
+
+  }
+
+  .auth-image {
+    float: left;
+  
+    /* Box-model */
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+  
+    /* Positioning */
+    margin-right: 25px;
+  }
+
+/*p {
+    float: right;
+}*/
+
+footer {
+    /*clear: left;*/
+    /*float: bottom;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;    
+    /*padding: 40px 0;*/
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: teal;
+    background-color: #343a40;
+    color: #c4bdbd;
+}
+
+@media only screen and (max-width: 980px) {
+  
+  
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 640px) {
+}
